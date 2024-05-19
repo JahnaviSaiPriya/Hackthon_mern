@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <form action="#">
+            <input type="text" id="amount" placeholder="Enter Amount"> <br>
+            <input type="text" id="category" placeholder="Enter Category"> <br> 
+            <input type="text" id="date" placeholder="Enter Date"><br>
+            <input type="text" id="purpose" placeholder="Enter Purpose"><br>
+            <button type="submit" id="submit" onclick=add()>Submit</button>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+        
+
+            <table >
+             <thead><tr><th>Amount</th><th>Category</th><th>Date</th><th>Purpose</th><th>Delete</th><th>Edit</th></tr></thead>
+             <tfoot id="result">  
+             </tfoot>
+            </table>
+   
+       
+     
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>~
